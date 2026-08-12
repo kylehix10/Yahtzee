@@ -23,4 +23,12 @@ public class ScoreCard {
         lowerCard.put("Yahtzee", 0);
         lowerCard.put("Chance", 0);
     }
+
+    public HashMap<String, Integer> getUpperCard() {
+        return upperCard;
+    }
+
+    public HashMap<String, Integer> getLowerCard() {
+        return lowerCard;
+    }
 }
