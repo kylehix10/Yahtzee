@@ -14,6 +14,7 @@ public class ScoreCard {
         upperCard.put("Threes", 0);
         upperCard.put("Fours", 0);
         upperCard.put("Fives", 0);
+        upperCard.put("Sixes", 0);
 
         lowerCard.put("ThreeOfAKind", 0);
         lowerCard.put("FourOfAKind", 0);

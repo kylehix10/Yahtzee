@@ -16,6 +16,10 @@ public class Dice {
         return this.value;
     }
 
+    public String toString(){
+        return String.valueOf(value);
+    }
+
     
 
 }
